@@ -9,10 +9,10 @@ export function createFoo() {
   const getFoo = () => foo
   return {
     setFoo,
-    getFoo
+    getFoo,
   }
 }
 
 export default createFoo
-// rollup 编译出的产物 equals to 
+// rollup 编译出的产物 equals to
 // export { createFoo as default }

@@ -7,15 +7,15 @@ describe("util", () => {
   it("util works", async () => {
     // fn
     const cb = sinon.fake()
-    cb.call(null)
+    cb()
     expect(cb.callCount).eq(1)
 
     // stub
     const log = sinon.stub(util, 'log')
-    log.call(null)
+    log()
     expect(log.callCount).equal(1)
-    log.call(null)
-    log.call(null)
+    log()
+    log()
     expect(log.callCount).equal(3)
   })
 })
