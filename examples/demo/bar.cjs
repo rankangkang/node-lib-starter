@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 // cjs 获取的一直是引用
 const bar = require('bar')
 const originBar = bar.originBar

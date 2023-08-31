@@ -36,7 +36,7 @@
     "prepare": "husky install",
     "build": "pnpm -F '!example*' run build",
     "test": "pnpm -F '!example*' run test",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --ext .js,.jsx,ts,tsx,mjs --fix"
   },
   "files": [
     "dist"

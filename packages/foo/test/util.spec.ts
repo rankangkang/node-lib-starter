@@ -1,10 +1,10 @@
-import { expect } from "chai"
-import { describe, it } from "mocha"
+import { expect } from 'chai'
+import { describe, it } from 'mocha'
 import sinon from 'sinon'
 import * as util from '../src/util'
 
-describe("util", () => {
-  it("util works", async () => {
+describe('util', () => {
+  it('util works', async () => {
     // fn
     const cb = sinon.fake()
     cb()
