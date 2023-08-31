@@ -24,6 +24,7 @@ export default [
       resolve(),
     ],
   },
+  // gen dts
   {
     input: 'src/index.ts',
     output: [
