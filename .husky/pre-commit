@@ -1,5 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo '👉 eslint 检查'
-npm run lint
+echo '👉 lint-staged'
+npx lint-staged
+echo '👏 done\n'
