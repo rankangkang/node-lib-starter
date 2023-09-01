@@ -39,8 +39,8 @@
     "lib"
   ],
   "scripts": {
-    "build": "rollup -c",
     "prebuild": "rimraf umd lib",
+    "build": "rollup -c",
     "test": "npx mocha"
   },
   "dependencies": {

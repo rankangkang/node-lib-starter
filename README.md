@@ -8,8 +8,11 @@ Simple nodejs libraries monorepo starter, bundling with rollup, and testing with
 # install
 pnpm i
 
-# lint
+# lint js file
 pnpm run lint
+
+# pretty json and md
+pnpm run pretty
 
 # test
 pnpm run test

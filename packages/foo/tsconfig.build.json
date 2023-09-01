@@ -3,7 +3,7 @@
   "include": ["src"],
   "compilerOptions": {
     // rollup 编译不支持 Node16
-    "module": "ESNext",
+    "module": "ESNext"
 
     // 不使用 tsc 编译，不生成 sourceMap 与 declaration
     // "sourceMap": false,

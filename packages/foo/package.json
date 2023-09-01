@@ -2,16 +2,19 @@
   "name": "foo",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
   "scripts": {
     "prebuild": "rimraf dist types",
     "build": "rollup -c ./rollup.config.mjs",
     "test": "npx mocha"
-  },
-  "files": ["dist", "types"],
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }

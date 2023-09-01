@@ -15,6 +15,7 @@
     "build": "pnpm -F '!example*' run build",
     "lint": "eslint . --ext .js,.jsx,ts,tsx,mjs --fix",
     "prepare": "husky install",
+    "pretty": "prettier --write \"**/*.{json,md}\"",
     "test": "pnpm -F '!example*' run test"
   },
   "lint-staged": {
