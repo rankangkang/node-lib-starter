@@ -1,3 +1,10 @@
-import { cache } from 'tool'
+import { Logger } from 'tool/logger'
+import { Cache } from 'tool/cache'
 
-cache.get('a')
+const logger = new Logger()
+
+const cache = new Cache()
+
+cache.set('10086', 10086)
+
+logger.info(cache.get('10086'))

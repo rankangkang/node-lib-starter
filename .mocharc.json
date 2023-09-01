@@ -1,7 +1,7 @@
 {
   "require": "ts-node/register",
   "loader": "ts-node/esm",
-  "extensions": ["ts", "tsx"],
-  "spec": ["**/{__test__,test}/**/*.{spec,test}.[jt]s"],
+  "extensions": ["ts", "tsx", "js", "jsx", "mjs", "mts", "cjs"],
+  "spec": ["**/{__test__,test}/**/*.{spec,test}.*"],
   "watch-files": ["src"]
 }
